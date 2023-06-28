@@ -1,0 +1,48 @@
+
+
+@font-face {
+    font-family: 'estedad';
+    font-weight: 900;
+    src: url('../fonts/estedad/Estedad-Black.woff2');
+}
+
+@font-face {
+    font-family: 'estedad';
+    font-weight: 300;
+    src: url('../fonts/estedad/Estedad-Light.woff2');
+}
+
+h5 {
+    font-family: 'estedad';
+    font-weight: 900;
+}
+
+body {
+    font-family: 'estedad';
+    font-weight: 300;
+}
+
+table {
+    font-family: 'estedad';
+
+}
+
+
+.form-floating-pass  {
+    border: 1px solid rgba(255, 255, 255, 0.452) !important;
+    display: flex !important;
+    height: 60px !important;
+    border-radius: 10px !important;
+}
+
+.form-floating-pass input {
+    border: none !important;
+}
+
+.form-floating-pass  button {
+
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+}

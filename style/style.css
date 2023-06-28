@@ -1,0 +1,142 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/Light-Sky-Blue.jpg');
+    background-size: 120%;
+    background-position:  center center;
+
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.button {
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: #ffff  !important;
+    background: #ff4797;
+    background: linear-gradient(321deg, #7900FF 0%, #548CFF 100%);
+    backdrop-filter: blur(16.3px);
+    -webkit-backdrop-filter: blur(16.3px);
+}
+
+main {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+}
+
+
+
+
+.action-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 420px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(16.3px);
+    border: 1px solid rgba(255, 255, 255, 0.061);
+}
+
+
+
+
+.action-box h3 {
+     width: 80%;
+     margin-top: 15px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 6px;
+    color: rgb(255,71,151);
+}
+
+.action-box .text-field {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.041);
+    border-radius: 16px;
+    backdrop-filter: blur(16.3px);
+    -webkit-backdrop-filter: blur(16.3px);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+
+.action-box .text-field::placeholder {
+    color: #fff;
+}
+
+
+.action-box .text-field:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.copy-btn {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.language-btns {
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+#enSwitcher {
+    width: 40%;
+}
+
+#faSwitcher {
+    width: 40%;
+}
+
+.colorInputs {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    color: #fff;
+
+}
+
+.form-control {
+    height: 60px !important;
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.452) !important;
+    background-color:transparent !important;
+    border-radius: 10px !important;
+}
+
+.form-control:focus {
+    box-shadow:none  !important ;
+}
+
+.bordered {
+    border: 1px solid rgb(255, 255, 255) !important;
+
+}
